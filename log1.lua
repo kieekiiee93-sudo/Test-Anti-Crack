@@ -1950,7 +1950,7 @@ function autoBypass()
   isBypassExecuted = true -- I-lock na agad
 
   pcall(function()
-    HexPatches.MemoryPatch("libanogs.so", 0x202680, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x202680, "h00 00 80 D2 C0 03 5F D6", 32);
       HexPatches.MemoryPatch("libanogs.so", 0x204218, "h00 00 80 D2 C0 03 5F D6", 32);
       HexPatches.MemoryPatch("libanogs.so", 0x35140C, "h00 00 80 D2 C0 03 5F D6", 32);
       HexPatches.MemoryPatch("libanogs.so", 0x37B5A8, "h00 00 80 D2 C0 03 5F D6", 32);
@@ -1966,10 +1966,30 @@ function autoBypass()
       HexPatches.MemoryPatch("libanogs.so", 0x438154, "h00 00 80 D2 C0 03 5F D6", 32);
       HexPatches.MemoryPatch("libanogs.so", 0x431D70, "h00 00 80 D2 C0 03 5F D6", 32);
       HexPatches.MemoryPatch("libanogs.so", 0x48A6B4, "h00 00 80 D2 C0 03 5F D6", 32);
+      
+      HexPatches.MemoryPatch("libanogs.so", 0x203024, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x205854, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2351C8, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x25164C, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x30EAF4, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x40F360, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x41BA40, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x42115C, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x44BDB4, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x44C104, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x44C934, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x493E4C, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x497E64, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4A9944, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4A99A0, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4A9A00, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4AA0CC, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4B4B64, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4B5810, "h00 00 80 D2 C0 03 5F D6", 32);
   end)
   
   -- Isang beses na lang lalabas ang Toast na ito
-  showToast("BYPASS ACTIVATED (NEW BYPASS)")
+  showToast("BYPASS ACTIVATED (TEST SERVER)")
 end
 
 -- I-load ang bypass nang hindi binibigla ang main thread sa pagsisimula
