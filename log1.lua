@@ -1967,25 +1967,10 @@ function autoBypass()
       HexPatches.MemoryPatch("libanogs.so", 0x431D70, "h00 00 80 D2 C0 03 5F D6", 32);
       HexPatches.MemoryPatch("libanogs.so", 0x48A6B4, "h00 00 80 D2 C0 03 5F D6", 32);
       
-      HexPatches.MemoryPatch("libanogs.so", 0x203024, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x205854, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x2351C8, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x25164C, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x30EAF4, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x40F360, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x41BA40, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x42115C, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x44BDB4, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x44C104, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x44C934, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x493E4C, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x497E64, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x4A9944, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x4A99A0, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x4A9A00, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x4AA0CC, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x4B4B64, "h00 00 80 D2 C0 03 5F D6", 32);
-      HexPatches.MemoryPatch("libanogs.so", 0x4B5810, "h00 00 80 D2 C0 03 5F D6", 32);
+HexPatches.MemoryPatch("libanogs.so", 0x1f8408, "h00 00 80 D2 C0 03 5F D6")
+HexPatches.MemoryPatch("libanogs.so", 0x1f87b0, "h00 00 80 D2 C0 03 5F D6")
+HexPatches.MemoryPatch("libanogs.so", 0x204100, "hE0 03 1F 2A")
+HexPatches.MemoryPatch("libanogs.so", 0x41ba40, "h00 00 80 D2 C0 03 5F D6")
   end)
   
   -- Isang beses na lang lalabas ang Toast na ito
